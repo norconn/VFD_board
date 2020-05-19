@@ -1,0 +1,44 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1000 1000 1000 5000
+U 5EC45352
+F0 "PSU" 50
+F1 "PSU.sch" 50
+F2 "GND" I R 2000 2350 50 
+F3 "5V" I R 2000 2150 50 
+F4 "30V" I R 2000 1100 50 
+F5 "3V4" I R 2000 1250 50 
+F6 "GND" I R 2000 1400 50 
+$EndSheet
+$Sheet
+S 2500 3500 1000 3000
+U 5EC454D2
+F0 "Wemos" 50
+F1 "Wemos.sch" 50
+F2 "5V" I L 2500 3650 50 
+F3 "GND" I L 2500 3850 50 
+$EndSheet
+$Sheet
+S 2500 1000 1000 2000
+U 5EC4562B
+F0 "VFD_shift" 50
+F1 "VFD_shift.sch" 50
+F2 "30V" I L 2500 1100 50 
+F3 "3V4" I L 2500 1250 50 
+F4 "GND" I L 2500 1400 50 
+$EndSheet
+$EndSCHEMATC
